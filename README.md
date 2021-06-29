@@ -1,6 +1,6 @@
 # ChatRoom💬
 
-This is a real-time Chat App which supports multiple users. It is built using Socket.io, HTML, CSS, Bootstrap, Javascript, Node.js and Express.js.
+This is a real-time ChatRoom App which can be joined by multiple users. It is built using Socket.io, HTML, CSS, Bootstrap, Javascript, Node.js and Express.js.
 ## You can use it [here](https://chat-room-realtime.herokuapp.com/). 😊
 
 ![alt demo image](https://i.ibb.co/VjsSCdb/chat-room.jpg)
