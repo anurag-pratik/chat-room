@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  overflow-y: auto;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+}
+
+h1 {
+  margin-top: 40px;
+  color: white;
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+}
+
+.container-fluid {
+  margin: auto;
+  background-color: rgb(41, 41, 41);
+  height: 60vh;
+  width: 80vw;
+  max-width: 900px;
+  overflow-y: auto;
+  margin-top: 45px;
+  padding: 10px 5px;
+  border-radius: 12px;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+.inputArea {
+  margin: 25px auto;
+}
+
+.msgInput {
+  background-color: rgb(41, 41, 41);
+  display: block;
+  margin: auto;
+  width: 78vw;
+  max-width: 890px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.msgInput:focus {
+  background-color: rgb(47, 47, 47);
+  color: white;
+}
+
+.btn {
+  font-family: "Quicksand", sans-serif;
+}
+
+.message {
+  font-family: "Quicksand", sans-serif;
+  -webkit-box-shadow: 2px 2px 6px 2px #1a1a1a;
+  box-shadow: 2px 2px 6px 2px #161616;
+  word-wrap: anywhere;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  font-size: 1.1rem;
+  padding: 5px 20px;
+  padding-bottom: 10px;
+  width: fit-content;
+  max-width: 400px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.footer-text {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  margin-top: 18px;
+  position: fixed;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(214, 32, 32);
+}
+
+@media only screen and (max-height: 560px) {
+  .container-fluid {
+    height: 200px;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .footer-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .message {
+    font-size: 0.8rem;
+  }
+}
