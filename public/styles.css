@@ -94,7 +94,7 @@ a:hover {
 
 @media only screen and (max-height: 560px) {
   .container-fluid {
-    height: 200px;
+    height: 190px;
   }
 
   h1 {
