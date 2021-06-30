@@ -4,7 +4,11 @@ const form = document.getElementById("send-container");
 const messageInput = document.getElementById("msgInp");
 const messageContainer = document.querySelector(".container-fluid");
 
-const name = prompt("Please enter your name to join the ChatRoom");
+var name = "";
+
+while (name == "") {
+  name = prompt("Please enter your name to join the ChatRoom");
+}
 
 var pop = new Audio("pop.mp3");
 
